@@ -1,0 +1,53 @@
+def main():
+    title = "Bitcoin: The Tower of Babel—A Flawed Structure Built on Illusions"
+
+    summary = [
+        "1. 21 Million Cap:",
+        "   - The decision to cap Bitcoin at 21 million coins is solely Satoshi Nakamoto's choice. "
+        "There is no mathematical or analytical basis for this number; it was a design decision "
+        "without specific justification.",
+        
+        "2. Unequal Rewards:",
+        "   - Early miners received 50 BTC per block, while current miners receive only 6.25 BTC per block. "
+        "This represents an 87.5% reduction in rewards compared to the initial mining period, leading to "
+        "significant unfairness in wealth distribution.",
+        
+        "3. Unfair Coin Allocation:",
+        "   - The allocation of coins to various wallets in the early stages was arbitrary and has contributed "
+        "to an unequal distribution of wealth. Many early coins remain unspent, which further skews the fairness of the system.",
+        
+        "4. Money Creation from Mining:",
+        "   - Miners create new Bitcoin as rewards for validating transactions, effectively generating money out of thin air. "
+        "This process does not have a physical backing, similar to how traditional currencies might be supported by gold or other assets.",
+        "   - While miners incur costs for electricity and computing power, the amount of Bitcoin awarded does not directly "
+        "correspond to these expenses. There is no guaranteed compensation for the resources used, and the value of the newly created coins is not necessarily justified by the costs of mining.",
+        
+        "5. Potential for Exploitation:",
+        "   - The system is vulnerable to manipulation. With sufficient computational power, an entity could execute a 51% attack, "
+        "where a miner or group of miners controls more than half of the network's hashing power. This would allow them to validate fraudulent transactions, create double spending, and dislodge the existing blockchain.",
+        "   - Such a scenario requires significant resources and expertise, making it a risk for the network's integrity if someone with malicious intent and adequate capital decided to exploit it.",
+        
+        "6. Resource Consumption:",
+        "   - Bitcoin mining consumes significant energy and resources, raising concerns about its environmental impact. "
+        "This is particularly concerning in poorer countries where energy consumption may not be regulated and where waste management standards are lacking. "
+        "The misuse and waste of electricity in these regions could exacerbate existing issues, potentially leading to hunger crises and social instability.",
+        
+        "7. Store of Value Issues:",
+        "   - Bitcoin's high resource demands and unequal distribution raise questions about its sustainability and effectiveness as a reliable store of value.",
+        
+        "Conclusion:",
+        "The cap of 21 million coins is a subjective decision made by Satoshi Nakamoto without mathematical backing. "
+        "The unequal rewards for early versus current miners, the arbitrary allocation of coins, and the creation of new Bitcoin without physical backing contribute to a system that many view as unfair. "
+        "Additionally, the potential for exploitation through a 51% attack poses significant risks to the integrity of the network. "
+        "The high energy consumption associated with Bitcoin mining also raises serious concerns, especially in poorer countries where this could lead to misuse of resources and social instability. "
+        "These factors, along with Bitcoin's resource consumption, challenge its status as a sustainable store of value."
+    ]
+
+    print(title)
+    print("\n" + "=" * len(title) + "\n")
+    for line in summary:
+        print(line)
+
+
+if __name__ == "__main__":
+    main()
